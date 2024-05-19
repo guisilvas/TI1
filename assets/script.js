@@ -15,7 +15,7 @@ document.getElementById('send-button').addEventListener('click', () => {
 });
 
 function isValidInput(input) {
-    const validNumbers = ['1', '2', '3', '4', '5'];
+    const validNumbers = ['1', '2', '3', '4'];
     return validNumbers.includes(input);
 }
 
