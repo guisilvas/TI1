@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    addMessage('bot', 'Olá, eu sou o GuardBot. Irei te ajudar a manter-se mais seguro(a) na internet!\nSelecione uma das opções abaixo:\n1. Ataque DDoS\n\n2. Injeção SQL\n3. Spam\n4. ');
+    addMessage('bot', 'Olá, eu sou o GuardBot. Irei te ajudar a manter-se mais seguro(a) na internet!\nSelecione uma das opções abaixo:\n1. Ataque DDoS\n\n2. Injeção SQL\n3. Spam\n4. Phishing');
 });
 
 document.getElementById('send-button').addEventListener('click', () => {
