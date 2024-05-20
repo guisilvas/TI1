@@ -11,7 +11,7 @@ body {
 
 header {
   width: 100%;
-  background-color: #1a36a3;
+  background-color: #333;
   color: white;
   padding: 10px 0;
   display: flex;
@@ -49,7 +49,7 @@ nav ul li a:hover {
 
 footer {
   width: 100%;
-  background-color: #1a36a3;
+  background-color: #333;
   color: white;
   text-align: center;
   padding: 10px 0;
@@ -64,8 +64,8 @@ footer {
   border-radius: 8px;
   background-color: white;
   overflow: hidden;
-  margin-top: 80px; /* Espaço para o header fixo */
-  margin-bottom: 50px; /* Espaço para o footer fixo */
+  margin-top: 80px; 
+  margin-bottom: 50px; 
 }
 
 .chat-box {
@@ -131,4 +131,10 @@ footer {
 .message.user .message-content {
   background-color: #007BFF;
   color: white;
+}
+
+.message .message-image img {
+  max-width: 300px;
+  border-radius: 10px;
+  margin-top: 10px;
 }
